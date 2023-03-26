@@ -1,0 +1,108 @@
+// Стили для основного меню
+@import url(menu/menu.css);
+@import url(menu/button-menu/button-menu.css);
+@import url(menu/application-repair/application-repair.css);
+// Стили для основного содержания 
+@import url(main-content/main-content.css);
+@import url(main-content/button-expand/button-expand.css);
+// Стили для названия раздела
+    @import url(main-content/__title-section/main-content__title-section.css);
+// Стили для меню раздела
+    @import url(main-content/menu-section/menu-section.css);
+    @import url(main-content/menu-section/__item/menu-section__item.css);
+    @import url(main-content/menu-section/__text-item/menu-section__text-item.css);
+// Стили для основного текста раздела 
+    @import url(main-content/content-section/main-text-section/main-text-section.css);
+    @import url(main-content/content-section/main-text-section/__paragraph/main-text-section__paragraph.css);
+// Стили для картинки раздела
+    @import url(main-content/content-section/picture/picture.css);
+// Стили для свайпера
+    @import url(main-content/swiper/swiper-bundle.min.css);
+    @import url(main-content/swiper/swiper.css);
+    @import url(main-content/swiper-brend/swiper-brend.css);
+
+// Стили для бокового меню 
+@import url(mobile-menu/mobile-menu.css);
+// Стили для верхней части меню 
+    @import url(mobile-menu/top-menu/exit/exit.css);
+    @import url(mobile-menu/top-menu/top-menu.css);
+    @import url(mobile-menu/top-menu/__logo/top-menu__logo.css);
+// Стили для средней части меню 
+    @import url(mobile-menu/middle-menu/middle-menu.css);
+    @import url(mobile-menu/middle-menu/__button/middle-menu__button.css);
+// Стили для нижней части меню 
+    @import url(mobile-menu/bottom-menu/bottom-menu.css);
+// Стили для подвала меню 
+    @import url(mobile-menu/footer-menu/footer-menu.css);
+    @import url(mobile-menu/footer-menu/__language/footer-menu__language.css);
+
+@font-face {
+font-family: 'TT Lakes';
+src: url(fonts/TTLakes-Regular.eot);
+src: local('TT Lakes Regular'), local('TTLakes-Regular'),
+    url(fonts/TTLakes-Regular.eot) format('embedded-opentype'),
+    url(fonts/TTLakes-Regular.woff) format('woff'),
+    url(fonts/TTLakes-Regular.ttf) format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'TT Lakes';
+src: url(fonts/TTLakes-Medium.eot);
+src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+    url(fonts/TTLakes-Medium.eot) format('embedded-opentype'),
+    url(fonts/TTLakes-Medium.woff) format('woff'),
+    url(fonts/TTLakes-Medium.ttf) format('truetype');
+font-weight: 500;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'TT Lakes';
+src: url(fonts/TTLakes-Bold.eot);
+src: local('TT Lakes Bold'), local('TTLakes-Bold'),
+    url(fonts/TTLakes-Bold.eot) format('embedded-opentype'),
+    url(fonts/TTLakes-Bold.woff) format('woff'),
+    url(fonts/TTLakes-Bold.ttf) format('truetype');
+font-weight: bold;
+font-style: normal;
+}
+
+html{
+box-sizing: border-box;
+}
+
+*, *:before, *:after{
+box-sizing: inherit;
+padding:0;
+margin:0;
+}
+
+body{
+    margin:0;
+}
+// Стили для модального окна "Обратная связь"
+@import 'feedback/feedback';
+// Стили для модального окна "Заказать звонок"
+@import 'order-call/order-call';
+
+
+// Стили для мобильного меню 
+@import 'mobile-menu/wrapper-mobile-menu.scss';
+// Стили для свайперов
+@import 'main-content/swiper-technic/swiper-technic.scss';
+@import 'main-content/swiper-prices/swiper-prices.scss';
+// Стили для нижней части страницы 
+@import 'main-content/note/note.scss';
+@import 'main-content/order/order';
+@import 'footer/footer';
+
+
+// Стили для разных экранов
+@import 'viewportStyle/viewport-768';
+@import 'viewportStyle/viewport-1440';
+
+
+
+

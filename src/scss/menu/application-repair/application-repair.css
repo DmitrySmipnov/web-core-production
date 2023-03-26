@@ -1,0 +1,15 @@
+.application-repair{
+    display: flex;
+    align-items: center;
+}
+
+.application-repair::before{
+    content: "";
+    width:2px;
+    height: 32px;
+    border-radius: 1px;    
+    background-image: url(strip-divider.svg);
+
+    margin-right: 20px;
+}
+

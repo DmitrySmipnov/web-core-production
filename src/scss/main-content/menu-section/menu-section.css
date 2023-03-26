@@ -1,0 +1,13 @@
+.menu-section{
+    display: flex;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    margin-bottom: 24px;
+    margin-left: 16px;
+}
+
+.menu-section::-webkit-scrollbar{
+    width: 0;
+}

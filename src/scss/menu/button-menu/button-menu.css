@@ -1,0 +1,10 @@
+.button-menu{
+    border:0;
+    background-color: white;
+
+    transition: filter 0.5s;
+}
+
+.button-menu:hover{
+    filter: opacity(0.7);
+}

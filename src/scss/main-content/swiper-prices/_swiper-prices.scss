@@ -1,0 +1,43 @@
+.swiper-prices{
+    margin-bottom: 16px;
+}
+
+.swiper-slide-prices{
+    width: 260px;
+    height: 200px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.swiper-slide-prices__content{
+    width: 100%;
+    font-family: 'TT Lakes';
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #1B1C21;
+    font-weight: 500;
+
+    margin-left: 16px;
+    margin-right: 16px;
+
+}
+
+.swiper-slide-prices__content:nth-child(odd){
+    line-height: 16px;
+    color: #7E7E82;
+    mix-blend-mode: normal;
+    opacity: 0.72;
+
+    margin-top: 16px;
+}
+
+.swiper-slide-prices__content:nth-child(even){
+    margin-top: 4px;
+}
+
+.swiper-prices-link{
+    position: absolute;
+    left: calc(100% - 135px);
+    top: calc(100% - 48px);
+}

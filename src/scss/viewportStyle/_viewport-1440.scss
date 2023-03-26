@@ -1,0 +1,286 @@
+@media (min-width: 1440px) {
+// Корректировка модального окна "Обратная связь"
+.wrapper-feedback{
+    display: flex;
+    width: calc(100% + 320px);
+    position: absolute;
+}
+
+.wrapper-feedback__blur{
+    width: calc(100% - 440px);
+    height: 940px;
+    mix-blend-mode: normal;
+    background-color: rgba(255, 255, 255, 0.96);
+}
+
+.feedback{
+    width: auto;
+    position: absolute;
+    right: 0;
+    min-height: 940px;
+    box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+    border-left: 1px solid #D9FFF5;
+    border-radius: 1px;
+    .wrapper-content{
+        width: 440px;
+    }
+    .input-field{
+        width: 376px;
+    }
+    p{
+        width: 376px;
+    }
+    .feedback-button-send{
+        margin: 0 0 75px 272px;
+    }
+    .feedback-button-send::after{
+        top: 0;
+    }
+}
+.feedback-exit{
+    position: absolute;
+    left: -72px;
+    top: 32px;
+    margin: 0;
+}
+.feedback-title{
+    margin-top: 40px;
+}
+
+// Корректировка модального окна "Заказать звонок"
+.wrapper-order-call{
+    display: flex;
+    width: calc(100% + 320px);
+    position: absolute;
+}
+.order-call-exit{
+    position: absolute;
+    left: -72px;
+    top: 32px;
+    margin: 0;
+}
+
+// Корректировка мобильного меню
+.wrapper-mobile-menu{
+    width: 320px;
+    left:0;
+}
+
+.mobile-menu{
+    box-shadow:none;
+    .button-menu{
+        background-color: white;
+    }
+    .exit{
+        display: none;
+    }
+}
+
+// Корректировка основного меню 
+.menu{
+    position: relative;
+    left: 320px;
+
+    justify-content: flex-end;
+    background: #F8F8F8;
+    padding: 42px 32px 8.37px 0;
+}
+
+.menu-item:not(.application-repair, .repair-status){
+    display: none;
+}
+
+.button-menu{
+    display: flex;
+    align-items: center;
+    background-color: inherit;
+}
+
+.text-button-menu{
+    display: block;
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+
+    padding-right: 8px;
+}
+
+.application-repair{
+    margin-right:32px;
+}
+
+.application-repair::before{
+    visibility: hidden;
+}
+
+// Корректировка основного содержания
+.main-content{
+    position: relative;
+    left: 320px;
+}
+.main-content__title-section{
+    padding: 0 0 0 32px;
+    margin-right: auto;
+    position: absolute;
+    top:-48px;
+}
+
+// Корректировка меню раздела 
+.menu-section{
+    flex-wrap: wrap;
+    margin-left: 32px;
+}
+
+// Содержание раздела  
+.content-section{
+    display: flex;
+}
+.main-text-section{
+    width: 43.8vw;
+    margin-left: 34px;
+    margin-right: 36px;
+}
+.main-text-section__paragraph:nth-child(2){
+    margin-bottom: 13.78px;
+}
+.main-text-section__paragraph-hidden{
+    display: inline;
+}
+.picture{
+    width: 47.4vw;
+    height: 27.4vw;
+}
+
+// Свайпер брендов 
+.swiper__title{
+    margin-right: 32px;
+}
+.swiper-wrapper{
+    flex-wrap: wrap;
+    row-gap: 16px;
+    height: 160px;
+    overflow: hidden;
+    padding: 0 16px;
+}
+.swiper-wrapper-blur{
+    visibility: hidden;
+}
+.swiper-slide{
+    margin: 0 16px;
+}
+.button-expand-swiper-brend, 
+.button-expand__img, 
+.button-expand__text{
+    display: inline-block;
+}
+.button-expand-swiper-brend{
+    margin-left: 39.29px;
+}
+
+// Свайпер с ценами
+.swiper-prices{
+    margin-bottom: 32px;
+    .swiper-wrapper{
+        height: auto;
+        row-gap: 0;
+        overflow: visible;
+        margin-right: 24px;
+    }
+}
+.swiper__header{
+    margin-bottom: 63px;
+}
+.swiper-slide-prices{
+    width: 100%;
+    height: 64px;
+    border: #FFFFFF;
+}
+.swiper-slide-prices::after{
+    content: '';
+    width: 97%;
+    height: 1px;
+    background-color: #EAEAEA;
+    position: absolute;
+    top: calc(100% - 1px);
+    left: 24px;
+}
+.swiper-slide-prices__content{
+    white-space: nowrap;
+    margin-left: 24px;
+}
+.swiper-slide-prices__content:nth-child(odd){
+    height: 0;
+    order: -1;
+    position: relative;
+    bottom: 46px;
+    visibility: hidden;;
+    margin-top: 16px;
+}
+.swiper-slide-prices:first-child .swiper-slide-prices__content:nth-child(odd){
+    visibility: visible;
+}
+
+.swiper-slide-prices__content:nth-child(1),
+.swiper-slide-prices__content:nth-child(2){
+    width: 46%;
+    margin-right: 4%;
+}
+
+.swiper-slide-prices__content:nth-child(3),
+.swiper-slide-prices__content:nth-child(4){
+    width: 10%;
+    margin-left: 0;
+    margin-right: 4%;
+}
+
+.swiper-slide-prices__content:nth-child(5),
+.swiper-slide-prices__content:nth-child(6){
+    width: 11%;
+    margin-left: 0;
+    margin-right: 22%;
+}
+
+.swiper-prices-link{
+    position: absolute;
+    left: calc(100% - 135px);
+    top: calc(100% - 48px);
+}
+
+// Примечание 
+.note{
+    width: 421px;
+    margin-left: 32px;
+}
+
+.order{
+    padding-bottom: 50px;
+    margin-left: 32px;
+}
+
+// Подвал 
+.footer{
+    position: relative;
+    left: 320px;
+    flex-direction: row;
+
+    padding: 32px 32px 21px 32px;
+}
+.footer-item{
+    width: 33%;
+}
+
+.footer-item:first-child{
+    text-align: left;
+}
+
+.footer-item:last-child{
+    text-align: right;
+}
+
+
+
+
+}

@@ -1,0 +1,17 @@
+.wrapper-order-call{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:-150%;
+    z-index: 3;
+}
+.feedback{
+    .input-field:last-child{
+        height: 48px;
+        padding-top: 0;
+    }
+}
+
+.order-call-exit{
+    margin: 24px 0 40px 16px;
+}

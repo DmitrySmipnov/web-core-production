@@ -1,0 +1,46 @@
+@keyframes button-expand-rotate{
+    to{
+        transform: rotateX(180deg);
+    }
+}
+
+.button-expand{
+    display: inline-block;
+    position: relative;
+    border: 0;
+    background-color: inherit;
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    animation-name: button-expand-rotate;
+}
+
+.button-expand__img{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(icon-button.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+
+    animation-name: none;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.button-expand__text{
+    margin-left: 16px;
+}
+
+.main-text-section__button{
+    margin-left: 8px;
+}
+
+.button-expand-swiper-brend, .button-expand-swiper-technic{
+    margin-left: 32.29px;
+}
+

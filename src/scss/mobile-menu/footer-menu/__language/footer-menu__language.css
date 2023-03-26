@@ -1,0 +1,50 @@
+.footer-menu__language{
+    display: flex;
+}
+
+.footer-menu__language-item{
+    display: flex;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+
+    margin-left: 7px;
+}
+
+.footer-menu__language-item:nth-child(1){
+    margin-left: 0;
+}
+
+.footer-menu__language-item::before{
+    width: 24px;
+    height: 24px;
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+    font-weight: 500;
+    background-color:inherit;
+    transition: color 0.7s;
+}
+
+.footer-menu__language-item::before:hover{
+    color: #7E7E82;
+}
+
+.footer-menu__language-item:nth-child(1)::before{
+    content: "RU"; 
+}
+
+.footer-menu__language-item:nth-child(2)::before{
+    content: "EN";
+}
+
+.footer-menu__language-item:nth-child(3)::before{
+    content: "CH";
+}
+
+
+
+
+

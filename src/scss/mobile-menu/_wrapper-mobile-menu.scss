@@ -1,0 +1,12 @@
+.wrapper-mobile-menu{
+    display: flex;
+    width: 100%; 
+    position: absolute;
+    top:0;
+    left:-150%;
+    z-index: 2;
+    transition: left 0.5s;
+    mix-blend-mode: normal;
+    background-color: rgba(255, 255, 255, 0.96);
+}
+

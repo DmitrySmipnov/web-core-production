@@ -1,0 +1,10 @@
+.main-text-section{
+    font-family: 'TT Lakes';
+    font-size: 0.875rem;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #1B1C21;
+    font-weight: normal;
+
+    margin: 0 16px 16px 16px;
+}

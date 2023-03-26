@@ -1,0 +1,210 @@
+@media (min-width: 768px) and (max-width: 1439px) {
+// Корректировка мобильного меню 
+.wrapper-mobile-menu__blur{
+    width: 90%;
+    height: 1109px;
+    flex-shrink:1000;
+}
+.mobile-menu{
+    width: 320px;
+}
+
+// Корректировка основного меню 
+.menu{
+    padding:24px; 
+}
+.menu-item{
+    display: flex;
+}
+.menu__burger-menu{
+    margin-right: 2.6vw;
+}
+.menu__strip-divider{
+    margin-right: 2.7vw;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 32.65vw;
+}
+.logo::before{
+    content: "";
+    width:2px;
+    height: 32px;
+    border-radius: 1px;    
+    background-image: url(menu/logo/strip-divider.svg);
+
+    margin-right: 20.73px;
+}
+.phone{
+    margin-right: 2.1vw;
+}
+.message{
+    margin-right: 2.1vw;
+}
+.profile{
+    margin-right: 2.6vw;
+}
+.application-repair{
+    margin-right: 2.1vw;
+}
+
+// Корректировка основного содержания 
+// Название раздела 
+.main-content__title-section{
+    padding:24px 0 32px 24px;
+}
+// Меню раздела 
+.menu-section{
+    margin-left: 24px;
+}
+// Содержание раздела 
+.content-section{
+    display: flex;
+}
+.main-text-section{
+    width: 40.6vw;
+    margin-left: 24px;
+    margin-right: 48px;
+}
+.main-text-section__paragraph:nth-child(2){
+    margin-bottom: 10px;
+}
+.main-text-section__paragraph-hidden:first-child{
+    display: inline;
+}
+.picture{
+    width: 46.9vw;
+    height: 27.1vw;
+}
+
+// Свайпер брендов 
+.swiper__header{
+    justify-content: start;
+    transform: none;
+    background: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
+}
+.swiper__title{
+    transform: none;
+    margin-left: 24px;
+}
+.swiper-wrapper{
+    flex-wrap: wrap;
+    row-gap: 16px; 
+    height: 160px;
+    overflow: hidden;
+    padding: 0 12px;
+}
+.swiper-wrapper-blur{
+    visibility: hidden;
+}
+.swiper-slide{
+    width: 224px;
+    margin: 0 12px;
+}
+.button-expand-swiper-brend, 
+.button-expand__img, 
+.button-expand__text{
+    display: inline-block;
+}
+
+// Свайпер с ценами
+.swiper-prices{
+    margin-bottom: 24px;
+    .swiper-wrapper{
+        height: auto;
+        row-gap: 0;
+        overflow: visible;
+        margin-right: 24px;
+    }
+}
+.swiper__header{
+    margin-bottom: 63px;
+}
+.swiper-slide-prices{
+    width: 100%;
+    height: 64px;
+    border: #FFFFFF;
+}
+.swiper-slide-prices::after{
+    content: '';
+    width: 95%;
+    height: 1px;
+    background-color: #EAEAEA;
+    position: absolute;
+    top: calc(100% - 1px);
+    left: 16px;
+}
+.swiper-slide-prices__content{
+    white-space: nowrap;
+}
+.swiper-slide-prices__content:nth-child(odd){
+    height: 0;
+    order: -1;
+    position: relative;
+    bottom: 46px;
+    visibility: hidden;;
+
+    margin-top: 16px;
+}
+.swiper-slide-prices:first-child .swiper-slide-prices__content:nth-child(odd){
+    visibility: visible;
+}
+.swiper-slide-prices__content:nth-child(1),
+.swiper-slide-prices__content:nth-child(2){
+    width: 46%;
+    margin-right: 4%;
+}
+
+.swiper-slide-prices__content:nth-child(3),
+.swiper-slide-prices__content:nth-child(4){
+    width: 10%;
+    margin-left: 0;
+    margin-right: 4%;
+}
+
+.swiper-slide-prices__content:nth-child(5),
+.swiper-slide-prices__content:nth-child(6){
+    width: 11%;
+    margin-left: 0;
+    margin-right: 22%;
+}
+
+.swiper-prices-link{
+    position: absolute;
+    left: calc(100% - 135px);
+    top: calc(100% - 48px);
+}
+
+// Примечание 
+.note{
+    width: 421px;
+    margin-left: 24px;
+}
+
+.order{
+    padding-bottom: 47px;
+    margin-left: 24px;
+}
+
+// Подвал 
+.footer{
+    flex-direction: row;
+
+    padding: 32px 24px 25px 24px;
+}
+.footer-item{
+    width: 33%;
+}
+
+.footer-item:first-child{
+    text-align: left;
+}
+
+.footer-item:last-child{
+    text-align: right;
+}
+
+
+
+}

@@ -1,0 +1,10 @@
+.main-text-section__paragraph{
+    margin-bottom: 16px;
+}
+
+.main-text-section__paragraph .hidden-content{
+    height: 0;
+    overflow: hidden;
+
+    margin-top: 16px;
+}
