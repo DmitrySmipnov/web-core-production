@@ -78,6 +78,7 @@
 
 // Корректировка основного меню 
 .menu{
+    width: calc(100% - 320px);
     position: relative;
     left: 320px;
 
@@ -118,6 +119,7 @@
 
 // Корректировка основного содержания
 .main-content{
+    width: calc(100% - 320px);
     position: relative;
     left: 320px;
 }
@@ -262,6 +264,7 @@
 
 // Подвал 
 .footer{
+    width: calc(100% - 320px);
     position: relative;
     left: 320px;
     flex-direction: row;
