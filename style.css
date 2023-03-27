@@ -466,8 +466,7 @@ body {
   width: 100%;
   position: absolute;
   top: 0;
-  left: -150%;
-  z-index: 3; }
+  left: -150%; }
 
 .feedback {
   width: 100%;
@@ -572,8 +571,7 @@ body {
   width: 100%;
   position: absolute;
   top: 0;
-  left: -150%;
-  z-index: 3; }
+  left: -150%; }
 
 .feedback .input-field:last-child {
   height: 48px;
@@ -903,6 +901,7 @@ footer {
     .mobile-menu .exit {
       display: none; }
   .menu {
+    width: calc(100% - 320px);
     position: relative;
     left: 320px;
     justify-content: flex-end;
@@ -928,6 +927,7 @@ footer {
   .application-repair::before {
     visibility: hidden; }
   .main-content {
+    width: calc(100% - 320px);
     position: relative;
     left: 320px; }
   .main-content__title-section {
@@ -1027,6 +1027,7 @@ footer {
     padding-bottom: 50px;
     margin-left: 32px; }
   .footer {
+    width: calc(100% - 320px);
     position: relative;
     left: 320px;
     flex-direction: row;
